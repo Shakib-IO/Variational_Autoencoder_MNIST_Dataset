@@ -21,14 +21,6 @@ Okay now see how the loss function minimize. In the variational autoencoder the 
 One of the approch is the Varitational inference. For this we need to minimize the KL divergence and maximize the marginal likelihood
 
 
-> Minimize the Kullback-Leibler divergence between two probability distributions q(z) and p(z|y) is defined as:<br>
-$ \text{KL}(q(z) | p(z|y)) = \mathbb{E}_{q(z)}\left[\ln\frac{q(z)}{p(z|y)}\right] $
-
-we can minimize the above expression by maximizing the following
-
-> ${E_{q\left( {z|x} \right)}}\log p\left( {x|z} \right) - KL\left( {q\left( {z|x} \right)||p\left( z \right)} \right)$
-
-
 ---
 
 [Jeremy Jordan](https://www.jeremyjordan.me/variational-autoencoders/)<br>
